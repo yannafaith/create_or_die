@@ -1,9 +1,8 @@
 {
-  "name": "dev",
+  "name": "create_or_die",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
-    "axios": "^0.18.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-router-dom": "^4.3.1",
