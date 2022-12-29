@@ -1,21 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
+import {Link} from "react-router-dom";
+import {PageCtn} from "../styles/containers";
+import {MainHeader, SubHeader} from "../styles/headers";
+import {StartBtn} from "../styles/buttons";
 
-const HomeWrapper = styled.div`{
-    height: 90vh;
-    padding-top: 10vh;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-}`
-const MainHeader = styled.h1`{
-  font-size: 5rem;
+const HomeWrapper = styled(PageCtn)`{}`
+const HomeH1 = styled(MainHeader)`{
   margin-bottom: 30px;
 }`;
-const SubHeader = styled.h2`{
-  font-size: 3rem;
+const HomeH2 = styled(SubHeader)`{
   margin-top: 100px;
   margin-bottom: 30px;
 }`;
@@ -45,20 +39,17 @@ const BtnsCtn = styled.div`{
   flex-direction: row;
   justify-content: space-around;
 }`;
-const StartBtn = styled.button`{
-    width: 200px;
-    height: 50px;
-    font-size: 1.5rem;
+const HomeBtn = styled(StartBtn)`{
     margin-top: 100px;
 }`;
 
 const Home = () => {
     return (
         <HomeWrapper>
-            <MainHeader> CREATE or <span role="img" aria-label="skull and bones emoji" >☠️</span> </MainHeader>
-            <MainCopy>ADHDers with big goals: You won't succeed unless you start. I've tried medicines, routines, lists, and plans... so many plans.
+            <HomeH1> CREATE or <span role="img" aria-label="skull and bones emoji" >☠️</span> </HomeH1>
+            <MainCopy>ADHDers with big goals: You won't succeed unless you start. I've tried medicines, routines, lists, and plans...
             </MainCopy>
-            <SubHeader>Urgency Works.</SubHeader>
+            <HomeH2>Urgency Works.</HomeH2>
             <Features>
                 <FeatureCtn>
                     <FeatureHeader>Fund your Goal</FeatureHeader>
@@ -71,8 +62,10 @@ const Home = () => {
                 </FeatureCtn>
             </Features>
             <BtnsCtn>
-                <StartBtn>Create</StartBtn>
-                <StartBtn>Learn More</StartBtn>
+                <HomeBtn>
+                    <Link to={"/todos"}>Create</Link>
+                </HomeBtn>
+                <HomeBtn>Learn More</HomeBtn>
             </BtnsCtn>
          </HomeWrapper>
     );
