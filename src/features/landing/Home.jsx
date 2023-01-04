@@ -46,7 +46,7 @@ const HomeBtn = styled(StartBtn)`
 const Home = () => {
     return (
         <HomeWrapper>
-            <HomeH1> CREATE or <span role="img" aria-label="skull and bones emoji" >☠️</span> </HomeH1>
+            <HomeH1> cr8 or <span role="img" aria-label="skull and bones emoji" >☠️</span> </HomeH1>
             <MainCopy>ADHDers with big goals: You won't succeed unless you start. I've tried medicines, routines, lists, and plans...
             </MainCopy>
             <HomeH2>Urgency Works.</HomeH2>

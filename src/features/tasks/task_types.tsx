@@ -6,5 +6,7 @@ export class Task {
     address!: string;
     description!: string;
     pledge!: Pledge;
-    timestamp!: string;
+    created_at!: string;
+    type?: string;
+    deadline?: string;
 }

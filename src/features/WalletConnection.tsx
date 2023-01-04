@@ -1,6 +1,16 @@
-import {WalletAddress} from "./tasks/task_styles";
+// import {WalletAddress} from "./tasks/task_styles";
 import React, {useEffect, useState} from "react";
 import {ethereum} from "./tasks/task_feature_config";
+import styled from "styled-components";
+
+export const WalletAddress = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  border: 1px solid red;
+  margin-bottom: 50px;
+`;
 
 export const WalletConnection = () => {
     const [currentAccount, setCurrentAccount] = useState<string>("");

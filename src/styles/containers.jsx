@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PageCtn = styled.div`{
-  height: 90vh;
+  height: 85vh;
   padding-top: 10vh;
   width: 80%;
   display: flex;

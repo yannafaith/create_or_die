@@ -8,4 +8,4 @@ const contractABI = abi.abi;
 export const { ethereum } = window;
 export const provider = new ethers.providers.Web3Provider(ethereum);
 export const signer = provider.getSigner();
-export const taskContract = new ethers.Contract(contractAddress, contractABI, signer);
+new ethers.Contract(contractAddress, contractABI, signer);
