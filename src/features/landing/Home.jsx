@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Link} from "react-router-dom";
-import {PageCtn} from "../styles/containers";
-import {MainHeader, SubHeader} from "../styles/headers";
-import {StartBtn} from "../styles/buttons";
+import {PageCtn} from "../../styles/containers";
+import {MainHeader, SubHeader} from "../../styles/headers";
+import {StartBtn} from "../../styles/buttons";
 
 const HomeWrapper = styled(PageCtn)``;
 const HomeH1 = styled(MainHeader)`
