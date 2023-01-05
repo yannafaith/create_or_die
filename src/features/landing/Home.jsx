@@ -26,6 +26,7 @@ const FeatureCtn = styled.div`
 const FeatureHeader = styled.h2`
   font-size: 2rem;
   border: solid yellow 1px;
+  height: min-content;
 `;
 const MainCopy = styled.p`
   box-sizing: border-box;
@@ -43,13 +44,15 @@ const Features = styled.div`
 `;
 const BtnsCtn = styled.div`
   width: 70%;
+  height: min-content;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   border: solid orange 1px;
+  
 `;
 const HomeBtn = styled(StartBtn)`
-    margin-top: 100px;
+    //margin-top: 100px;
 `;
 //</editor-fold>
 
