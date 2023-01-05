@@ -1,18 +1,20 @@
 import React from "react";
 import {TaskList} from "./TaskList";
 import {WalletConnection} from "../../WalletConnection";
-import {SubHeader} from "../../../styles/headers";
+import {Subh3} from "../../../styles/headers";
 import styled from "styled-components";
 import {PageCtn} from "../../../styles/containers";
-// import {TaskPageCtn} from "../task_styles.jsx";
 
 export const TaskPageCtn = styled(PageCtn)``;
+const YourOpenTasks = styled(Subh3)`
+  padding: 10px;
+`;
 
 const TaskPage = () => {
     return (
         <TaskPageCtn>
-            <WalletConnection/>
-            <SubHeader>Your Open Tasks</SubHeader>
+            <WalletConnection />
+            <YourOpenTasks>Your Open Tasks</YourOpenTasks>
             <TaskList />
         </TaskPageCtn>
     );

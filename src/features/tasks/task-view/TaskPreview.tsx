@@ -3,11 +3,18 @@ import React from "react";
 import {Task} from "../task_types";
 
 export const TaskCtn = styled.div`
+  box-sizing: border-box;
   border: 1px solid black;
-  width: 320px;
-  height: 50px;
-  padding: 20px;
-  margin-bottom: 20px;
+  width: 400px;
+  
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 `
 export const TaskPreview = (task: Task) => {
 	// ToDo: Convert mock dollar amount to Hexes

@@ -61,13 +61,10 @@ export const mockTasks: Task[] = [
 
 export const makeMockTasks = (numTasks: number) => {
     const tasks: Task[] = [];
-    let taskCnt = 0;
+    let mockTaskIdx = 0;
     for (let i = 0; i < numTasks; i++) {
-        let task = mockTasks[taskCnt];
-        task.id= i;
-        tasks.push(task);
-        taskCnt++;
-        if (taskCnt == mockTasks.length-1) taskCnt = 0;
+        tasks.push(mockTasks[mockTaskIdx]);
+        mockTaskIdx = (mockTaskIdx + 1) % mockTasks.length;
     }
     return tasks;
 }
