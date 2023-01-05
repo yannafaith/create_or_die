@@ -1,13 +1,14 @@
 import React from "react";
 import {MainLogo} from "./MainLogo";
 import styled from "styled-components";
+import {WalletConnection} from "./WalletConnection";
 
 const NavCtn = styled.nav`
   	box-sizing: border-box;
-  	border: 1px solid black;
-  	background-color: whitesmoke;
+  	//border: 1px solid black;
+  	background-color: white;
 
-  	height: 7vh;
+  	height: 10vh;
   	width: 100%;
 
   	display: flex;
@@ -20,6 +21,7 @@ export const Navigation = () => {
 	return (
 		<NavCtn>
 			<MainLogo />
+			<WalletConnection />
 		</NavCtn>
 	)
 }

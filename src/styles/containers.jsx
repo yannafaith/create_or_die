@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const PageCtn = styled.div`{
   box-sizing: border-box;
-  border: 3px solid black;
-  
-  height: 79vh;
+  //border: 3px solid black;
+  background-color: white;
+  height: 80vh;
   width: 90vw;
   margin: 0 auto;
   

@@ -4,12 +4,16 @@ import {Task} from "../task_types";
 
 export const TaskCtn = styled.div`
   box-sizing: border-box;
-  border: 1px solid black;
-  width: 400px;
+  //border: 1px solid black;
+  width: 350px;
+  height: 175px;
+  background-color: #f7f6f2;
   
   padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
   
   display: flex;
   flex-direction: column;

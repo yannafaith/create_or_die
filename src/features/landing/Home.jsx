@@ -12,10 +12,10 @@ const HomeWrapper = styled(PageCtn)`
     justify-content: space-around;
 `;
 const HomeH2 = styled(Subh1)`
-  border: solid purple 1px;
+  //border: solid purple 1px;
 `;
 const FeatureCtn = styled.div`
-  border: 1px solid black;
+  //border: 1px solid black;
   padding: 50px;
   width: 400px; 
   height: 200px;
@@ -25,18 +25,18 @@ const FeatureCtn = styled.div`
 `;
 const FeatureHeader = styled.h2`
   font-size: 2rem;
-  border: solid yellow 1px;
+  //border: solid yellow 1px;
   height: min-content;
 `;
 const MainCopy = styled.p`
   box-sizing: border-box;
-  border: 1px solid blue;
+  //border: 1px solid blue;
   padding: 20px;
   font-size: 1.5rem;
 `;
 const Features = styled.div`
     width: 90%;
-    border: solid green 2px;
+    //border: solid green 2px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -48,7 +48,7 @@ const BtnsCtn = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border: solid orange 1px;
+  //border: solid orange 1px;
   
 `;
 const HomeBtn = styled(StartBtn)`

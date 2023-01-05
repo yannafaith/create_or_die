@@ -7,7 +7,7 @@ import styled from "styled-components";
 
 export const OpenTaskList = styled.ul`
     box-sizing: border-box;
-    border: 1px solid blue;
+    //border: 1px solid blue;
     
     display: flex;
     flex-direction: row;

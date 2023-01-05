@@ -1,23 +1,28 @@
 import React from "react";
 import styled from "styled-components";
 import {Subh2} from "../styles/headers";
+import {LargeSpan} from "../styles/spans";
 
 //<editor-fold desc="Styled Components">
 const LogoHeader = styled(Subh2)`
 	box-sizing: border-box;
 	margin-left: 20px;
-	border: 5px solid red;
+	//border: 5px solid red;
 	
 	display: flex;
 	align-items: center;
 	justify-content: center;
  
 	letter-spacing: 3px;
-`;
-const SkullEmoji = styled.span`
-  border: 1px solid red;
-  font-size: 1.5em;
 
+`;
+const CreateSpan = styled(LargeSpan)``;
+const OrSpan = styled(LargeSpan)`
+	color: indianred;
+  	font-size: 20px
+`;
+const SkullSpan = styled(LargeSpan)`
+	font-size: 1.5em;
 `;
 //</editor-fold>
 
@@ -25,7 +30,14 @@ const SkullEmoji = styled.span`
 export const MainLogo = () => {
 	return (
 		<LogoHeader>
-			cr8or<SkullEmoji role="img" aria-label="skull and bones emoji" >☠️</SkullEmoji>
+			<SkullSpan>C</SkullSpan>
+			<CreateSpan>r8</CreateSpan>
+			<OrSpan>Or</OrSpan>
+			<SkullSpan
+				role="img"
+				aria-label="skull and bones emoji"
+			>☠️
+			</SkullSpan>
 		</LogoHeader>
 	);
 };

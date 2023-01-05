@@ -1,21 +1,21 @@
 import React from "react";
 import styled from "styled-components";
-import {Subh2} from "../styles/headers";
 
-
-const MadeWithLoveCtn = styled(Subh2)`
+const MadeWithLoveCtn = styled.div`
   letter-spacing: 10px;
+  padding-left: 80px;
+  font-size: 16px;
+  font-weight: bold;
 `;
 
 const FooterCtn = styled.footer`
-	height: 13vh;
+	height: 10vh;
   	background-color: black;
   	color: white;
   	display: flex;
   	flex-direction: row;
-  	justify-content: center;
+  	justify-content: flex-start;
   	align-items: center;
-    border: 5px solid red;
 `;
 
 export const Footer = () => {

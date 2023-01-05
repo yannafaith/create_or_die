@@ -7,7 +7,7 @@ export const WalletAddress = styled.div`
   width: inherit;
   height: 100px;
   
-  border: 1px solid red;
+  //border: 1px solid red;
   padding-right: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
