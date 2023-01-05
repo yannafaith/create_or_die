@@ -16,6 +16,7 @@ export const TaskCtn = styled.div`
   align-items: center;
 
 `
+
 export const TaskPreview = (task: Task) => {
 	// ToDo: Convert mock dollar amount to Hexes
 	// const pledge = web3.utils.fromWei((task.pledge._hex), "ether" );

@@ -14,7 +14,6 @@ const HomeWrapper = styled(PageCtn)`
 const HomeH2 = styled(Subh1)`
   border: solid purple 1px;
 `;
-
 const FeatureCtn = styled.div`
   border: 1px solid black;
   padding: 50px;
@@ -36,7 +35,7 @@ const MainCopy = styled.p`
 `;
 const Features = styled.div`
     width: 90%;
-  border: solid green 2px;
+    border: solid green 2px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
