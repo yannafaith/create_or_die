@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React from "react";
-import {Task} from "../task_types";
+import {Task} from "../config/task_types";
 
 export const TaskCtn = styled.div`
   box-sizing: border-box;

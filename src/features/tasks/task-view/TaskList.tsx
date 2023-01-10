@@ -1,8 +1,8 @@
-import {Task} from "../task_types";
+import {Task} from "../config/task_types";
 import {TaskPreview} from "./TaskPreview";
 import React, {useEffect, useState} from "react";
-import {ethereum} from "../task_feature_config";
-import {makeMockTasks} from "../task_mock_data";
+import {ethereum} from "../config/task_feature_config";
+import {makeMockTasks} from "../config/task_mock_data";
 import styled from "styled-components";
 
 export const OpenTaskList = styled.ul`

@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {ethereum} from "./tasks/task_feature_config";
+import {ethereum} from "../tasks/config/task_feature_config";
 import styled from "styled-components";
 
 export const WalletAddress = styled.div`

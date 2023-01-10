@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import {Subh2} from "../styles/headers";
-import {LargeSpan} from "../styles/spans";
+import {Subh2} from "../../styles/headers";
+import {LargeSpan} from "../../styles/spans";
 
 //<editor-fold desc="Styled Components">
 const LogoHeader = styled(Subh2)`
