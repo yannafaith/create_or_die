@@ -1,9 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Link} from "react-router-dom";
 import {PageCtn} from "../../styles/containers";
 import {Subh1} from "../../styles/headers";
 import {StartBtn} from "../../styles/buttons";
+import {Pricing} from "./Pricing";
+// @ts-ignore
+import {Link} from "react-router-dom";
 
 //<editor-fold desc="Styled Components">
 const HomeWrapper = styled(PageCtn)`
@@ -15,7 +17,7 @@ const HomeH2 = styled(Subh1)`
   //border: solid purple 1px;
 `;
 const FeatureCtn = styled.div`
-  //border: 1px solid black;
+  border: 1px solid black;
   padding: 50px;
   width: 400px; 
   height: 200px;
@@ -75,6 +77,7 @@ const Home = () => {
                     <FeatureHeader>Get Your Money Back</FeatureHeader>
                 </FeatureCtn>
             </Features>
+            <Pricing/>
             <BtnsCtn>
                 <HomeBtn>
                     <Link to={"/todos"}>Create</Link>

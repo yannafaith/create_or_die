@@ -6,14 +6,14 @@ import {WalletConnection} from "./WalletConnection";
 const NavCtn = styled.nav`
   	box-sizing: border-box;
   	//border: 1px solid black;
-  	background-color: white;
+  	background-color: whitesmoke;
 
   	height: 10vh;
   	width: 100%;
 
   	display: flex;
   	flex-direction: row;
-  	justify-content: space-between;
+  	justify-content: space-around;
   	align-items: center;
 `;
 

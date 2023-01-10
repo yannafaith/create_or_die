@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './features/landing/Home.jsx';
+import Home from './features/landing/Home.tsx';
 import { Route } from 'react-router-dom';
 import TaskPage from "./features/tasks/task-view/TaskPage.tsx";
 import {Navigation} from "./features/Navigation";

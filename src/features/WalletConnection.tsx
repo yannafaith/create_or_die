@@ -46,8 +46,9 @@ export const WalletConnection = () => {
     }, []);
     return (
         <WalletAddress>
-            <h1>Welcome, {currentAccount}</h1>
             <h2>Your pledged balance is $3000</h2>
+            <h1>Welcome, {currentAccount}</h1>
+
         </WalletAddress>
     )
 }
